@@ -7,15 +7,7 @@
 
 import Foundation
 
-let inputFirst = readLine()!.components(separatedBy: " ").map { Int($0)! }
-let inputSecond = Int(readLine()!)!
-
-var initialHour = inputFirst[0]
-var initialMinute = inputFirst[1]
-
-var setHour = inputSecond / 60
-var setMinute = inputSecond % 60
-let minute = (initialMinute + setMinute)
-let hour = (initialHour + setHour + (minute / 60)) % 24
-
-print("\(hour) \(minute % 60)")
+let i = readLine()!.components(separatedBy: " ").map { Int($0)! }
+let j = Int(readLine()!)!
+let k = (i[1] + j % 60)
+print("\((i[0] + j / 60 + k / 60) % 24) \(k % 60)")

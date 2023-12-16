@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  2480.swift
 //  SwiftAlgorithm
 //
 //  Created by 구태호 on 12/16/23.
