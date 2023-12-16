@@ -69,6 +69,14 @@
 		05A0D02A2B28A8F20052DC9E /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				05B506D42B2D902F00CCBFCF /* Stepper */,
+			);
+			path = SwiftAlgorithm;
+			sourceTree = "<group>";
+		};
+		05B506D42B2D902F00CCBFCF /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
 				05A0D0322B28A93E0052DC9E /* 18108.swift */,
 				05A0D0362B28AC340052DC9E /* 10430.swift */,
 				0572EB8C2B2A05A9003DEA9D /* 2588.swift */,
@@ -83,7 +91,7 @@
 				05B506CE2B2D87CC00CCBFCF /* 2525.swift */,
 				05B506D02B2D8DFD00CCBFCF /* main.swift */,
 			);
-			path = SwiftAlgorithm;
+			path = Stepper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
