@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		60BBC5EC2DF9C50A0006C171 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBC5EB2DF9C4F80006C171 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		05A0D0262B28A8F20052DC9E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -45,6 +49,8 @@
 		05E6834B2B2F4226003361A4 /* 2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2739.swift; sourceTree = "<group>"; };
 		05E6834D2B2F4353003361A4 /* 10950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10950.swift; sourceTree = "<group>"; };
 		05E6834F2B2F454A003361A4 /* 8393.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8393.swift; sourceTree = "<group>"; };
+		60BBC5E72DF9C01D0006C171 /* 10871.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10871.swift; sourceTree = "<group>"; };
+		60BBC5EB2DF9C4F80006C171 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		60D1C99F2C32FA1800890EF2 /* 10807.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10807.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +84,7 @@
 		05A0D02A2B28A8F20052DC9E /* SwiftAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				60BBC5EA2DF9C4D40006C171 /* String */,
 				60D1C99E2C32FA0100890EF2 /* FirstDimensinalArray */,
 				60D1C99D2C32F9C400890EF2 /* Iteration */,
 				60D1C99C2C32F99300890EF2 /* Condition */,
@@ -92,6 +99,14 @@
 			children = (
 			);
 			path = Stepper;
+			sourceTree = "<group>";
+		};
+		60BBC5EA2DF9C4D40006C171 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				60BBC5EB2DF9C4F80006C171 /* main.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		60D1C99A2C32F88800890EF2 /* ElementaryArithmetic */ = {
@@ -143,6 +158,7 @@
 		60D1C99E2C32FA0100890EF2 /* FirstDimensinalArray */ = {
 			isa = PBXGroup;
 			children = (
+				60BBC5E72DF9C01D0006C171 /* 10871.swift */,
 				60D1C99F2C32FA1800890EF2 /* 10807.swift */,
 			);
 			path = FirstDimensinalArray;
@@ -207,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BBC5EC2DF9C50A0006C171 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
